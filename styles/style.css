@@ -221,3 +221,20 @@ footer p {
         min-height: auto; /* Remove a altura mínima em telas menores */
     }
 }
+
+/* ==========================================================================
+   7. MENSAGENS DE FEEDBACK
+   ========================================================================== */
+
+.loading-message, .error-message {
+    font-size: 1.2rem;
+    color: #6c757d;
+    text-align: center;
+    width: 100%;
+    padding: 2rem;
+}
+
+.error-message {
+    color: #dc3545; /* Vermelho para indicar erro */
+    font-weight: 600;
+}
